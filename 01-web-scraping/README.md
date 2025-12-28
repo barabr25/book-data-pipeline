@@ -1,14 +1,21 @@
 # Project 1: Web Scraping
 
-## Goal
-Collect data from a public website using Python and analyze it.
+## Objective
+Collect real-world data from a public website using Python and prepare it for analysis.
 
-## Tools
+## Website
+IMDb Top Movies (public, static HTML)
+
+## Tools Used
 - Python
 - requests
 - BeautifulSoup
 - pandas
 
-## Status
-Not Finished
+## Data Collected
+- Movie title
+- Release year
+- IMDb rating
 
+## Outcome
+Scraped movie data and saved it as a CSV file for analysis.
