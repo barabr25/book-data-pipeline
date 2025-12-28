@@ -1,22 +1,26 @@
-# Web Scraping: Books to Scrape
+# Web Scraping Project – Books Website
 
-## Project Overview
-This project demonstrates basic web scraping using Python.  
-The goal is to collect book data from a public website and store it in a structured format.
+## Overview
+This project demonstrates web scraping using Python.  
+I scraped book data from a public practice website and stored it in a structured format for analysis.
 
-## Website
-https://books.toscrape.com
+## Website Scraped
+https://books.toscrape.com  
+*(This is a legal, scraping-friendly practice website)*
 
 ## Data Collected
-- Book title  
-- Price  
-- Rating  
+- Book title
+- Price
+- Availability
+- Rating
 
-## Tools Used
+## Tools & Libraries
 - Python
 - requests
 - BeautifulSoup
 - pandas
 
-## Outcome
-The scraped data will be saved into a CSV file for further analysis.
+## How to Run
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
