@@ -1,10 +1,16 @@
-# Project 1: Web Scraping
+# Web Scraping: Books to Scrape
 
-## Objective
-Collect real-world data from a public website using Python and prepare it for analysis.
+## Project Overview
+This project demonstrates basic web scraping using Python.  
+The goal is to collect book data from a public website and store it in a structured format.
 
 ## Website
-IMDb Top Movies (public, static HTML)
+https://books.toscrape.com
+
+## Data Collected
+- Book title  
+- Price  
+- Rating  
 
 ## Tools Used
 - Python
@@ -12,10 +18,5 @@ IMDb Top Movies (public, static HTML)
 - BeautifulSoup
 - pandas
 
-## Data Collected
-- Movie title
-- Release year
-- IMDb rating
-
 ## Outcome
-Scraped movie data and saved it as a CSV file for analysis.
+The scraped data will be saved into a CSV file for further analysis.
