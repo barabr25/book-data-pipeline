@@ -7,7 +7,7 @@ This repository contains my data analytics projects demonstrating skills in:
 - Data visualization & dashboards  
 - SQL data analysis  
 
-Each folder represents a standalone project with its own code, data, and documentation.
+Each folder represents a standalone project with its own code and data.
 
 ## Projects
 
