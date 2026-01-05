@@ -24,6 +24,4 @@ Each folder represents a standalone project with its own code and data.
 - Jupyter Notebook
 - Git & GitHub
 
-## Goal
 
-This portfolio is part of my preparation for **Data Science internships**, showcasing hands-on projects and real data workflows.
