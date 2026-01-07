@@ -18,15 +18,12 @@ The goal is to understand pricing, ratings, and data quality before further anal
 - matplotlib
 - seaborn
 
-## Key Findings
-- Average book price calculated
-- Price distribution visualized
-- Rating frequency analyzed
 
 ## Files
 - `eda_books.ipynb` – Jupyter notebook with full analysis
 - `books.csv` – Dataset used
 - `requirements.txt` – Python dependencies
+
 
 ## Key Findings
 - Book prices range from approximately £14 to £57
