@@ -9,6 +9,8 @@ The goal is to understand pricing, ratings, and data quality before further anal
 - Clean and prepare data
 - Analyze book prices and ratings
 - Visualize distributions and trends
+- Explore scraped book pricing data, understand the distribution of prices, and identify potential patterns 
+
 
 ## Tools Used
 - Python
