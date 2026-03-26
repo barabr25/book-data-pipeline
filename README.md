@@ -1,28 +1,73 @@
-# Book Data Pipeline
+# 📚 Book Data Analysis Pipeline
 
-This repository contains my data analytics projects demonstrating skills in:
+This project demonstrates an end-to-end data analytics workflow, including data collection, cleaning, analysis, and visualization. The goal of this project is to explore patterns in book ratings, reviews, and genres to understand factors that influence popularity.
 
-- Web scraping  
-- Exploratory Data Analysis (EDA)  
-- Data visualization & dashboards  
-- SQL data analysis  
+---
 
-Each folder represents a standalone project with its own code and data.
+## 🔍 Overview
 
-## Projects
+- Collected and processed book data using web scraping techniques
+- Cleaned and structured raw data for analysis using Python (pandas)
+- Performed exploratory data analysis (EDA) to identify trends and relationships
+- Queried structured data using SQL to extract insights
+- Built interactive dashboards to visualize key metrics
+- (In progress) Developed machine learning models to predict book ratings
 
-- **01-web-scraping** – Scraped book data from a website and cleaned it for analysis  
-- **02-exploratory-data-analysis** – Performed EDA using Python and pandas
-- **03-sql-data-analysis** – Queried and analyzed data using SQL
-- **04-sentiment-analysis** – Analyzed text data to determine sentiment  
-- **05-dashboard** – Created visual dashboards to communicate insights
-- **06-machine-learning** - Trained and evaluated machine learning models to make predictions based on cleaned and engineered data   
+---
 
-## Tools & Technologies
+## 📊 Dataset
 
-- Python (pandas, matplotlib, seaborn, BeautifulSoup)
-- SQL
-- Jupyter Notebook
-- Git & GitHub
+- Source: Web-scraped dataset
+- Size: ~10,000+ records (update this with your actual number)
+- Features include: title, price, rating, availability, and category
 
+---
 
+## 🛠️ Tools & Technologies
+
+- **Python**: pandas, NumPy, matplotlib, seaborn, BeautifulSoup  
+- **SQL**: data querying and aggregation  
+- **Visualization**: Power BI / Tableau  
+- **Environment**: Jupyter Notebook  
+- **Version Control**: Git & GitHub  
+
+---
+
+## 📈 Key Insights
+
+*(You NEED to fill this in once you do analysis)*
+
+Examples:
+- Books with a higher number of reviews tend to have higher average ratings  
+- Certain categories consistently outperform others in average rating  
+- Price does not strongly correlate with rating, suggesting perceived value differs across genres  
+
+---
+
+## 📁 Project Structure
+
+- **01-web-scraping**  
+  Built a Python pipeline using BeautifulSoup to extract and clean raw book data  
+
+- **02-exploratory-data-analysis**  
+  Conducted EDA to analyze distributions, detect trends, and assess data quality  
+
+- **03-sql-data-analysis**  
+  Wrote SQL queries (filtering, aggregation, joins) to analyze structured datasets  
+
+- **04-sentiment-analysis**  
+  Applied NLP techniques to analyze text data and compute sentiment scores  
+
+- **05-dashboard**  
+  Created interactive dashboards to visualize key trends and insights  
+
+- **06-machine-learning** *(in progress)*  
+  Developed predictive models to estimate book ratings using engineered features  
+
+---
+
+## 🚀 Future Improvements
+
+- Enhance dashboard interactivity and user experience  
+- Improve model accuracy with additional feature engineering  
+- Incorporate larger and more diverse datasets  
